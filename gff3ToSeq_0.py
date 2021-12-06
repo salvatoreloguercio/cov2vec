@@ -16,7 +16,7 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 import re
 
-# get reference protein sequences for SARSA CoV2 (Wuhan-1)
+# get reference protein sequences for SARS CoV2 (Wuhan-1)
 ref_dict = {rec.id : rec.seq for rec in SeqIO.parse("SARS_CoV2_ref_protSeq_NSP.fasta", "fasta")}
 
 # dictionary between protein names and Uniprot
